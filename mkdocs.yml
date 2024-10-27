@@ -33,7 +33,18 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
-    - content.action.edit
+      - navigation.instant 
+      - navigation.instant.prefetch
+      - navigation.tabs
+      - navigation.sections
+      - navigation.path
+      - navigation.indexes 
+      - navigation.top
+      # - navigation.expand
+    # - content.action.edit
+    # - navigation.tabs
+    # - navigation.sections
+    # - navigation.expand 
 
 plugins:
   - mkdocs-simple-hooks:
